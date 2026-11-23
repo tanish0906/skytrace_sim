@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Military_Jet_Aircraft">
+  <material name="Steel">
+    <color rgba="0.729 0.600 0.518 1.0" />
+  </material>
+  <link name="base_link">
+    <visual>
+      <origin xyz="2453.1678 -445.7700 -109.3056" rpy="1.570797 -0.000000 1.570796" />
+      <geometry>
+        <mesh filename="package://skytrace_sim/meshes/base_link.dae" scale="9195.38 9195.38 9195.38" />
+      </geometry>
+      <material name="Steel" />
+    </visual>
+    <collision>
+      <origin xyz="2453.1678 -445.7700 -109.3056" rpy="1.570797 -0.000000 1.570796" />
+      <geometry>
+        <mesh filename="package://skytrace_sim/meshes/base_link_collision.stl" scale="9195.38 9195.38 9195.38" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
