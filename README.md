@@ -13,7 +13,7 @@
 ```bash
 mkdir -p ~/skytrace_ws/src
 cd ~/skytrace_ws/src
-git clone https://github.com/<your-username>/skytrace_sim.git
+git clone https://github.com/tanish0906/skytrace_sim.git
 cd ~/skytrace_ws
 colcon build --packages-select skytrace_sim
 source install/setup.bash
